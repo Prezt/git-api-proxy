@@ -40,3 +40,9 @@ export const fetchReposByUsername = async (req, res) => {
         res.status(500).send(e.message)
     }
 }
+
+export const usersController = {
+    fetchAll,
+    fetchDetailsByUsername,
+    fetchReposByUsername
+}
