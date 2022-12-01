@@ -29,22 +29,22 @@ There are 4 available `GET` routes. Other responses 404 with "Not Found" as a me
 ### Routes
 ###### Home page
 ```
-GET - /
+GET /
 ```
 Basic home page used mostly for dev purposes
 ###### List users
 ```
-GET - /api/users?since={userId}
+GET /api/users?since={userId}
 ```
 List 30 github users starting with an id greater than `userId`  
 If no userId is sent, it will list all users starting with `userId` = 1
 ###### User details
 ```
-GET - /api/users/:username/details
+GET /api/users/:username/details
 ```
 Get the details from a specific user, found from his `username`
 ###### User repositories
 ```
-GET - /api/users/:username/repos
+GET /api/users/:username/repos
 ```
 Get the list of public repositories from a specific user, found from his `username`
