@@ -1,15 +1,15 @@
-# Overview
+### Overview
 This is a proxy API of some endpoints from the github API  
 The project is hosted on https://github-api-proxy-prezt.herokuapp.com/  
 There is a basic home page on the root endpoint  
 
-## Installing
+#### Installing
 Clone or download the repository, then run  
 ```
 npm install
 ```
 
-## Testing
+#### Testing
 To run the tests, go to the project root directory and run  
 ```
 npm test
@@ -17,7 +17,7 @@ npm test
 The results will be shown in the terminal you ran the command
 This tests are ran using `jest` and `supertest`
 
-## Running
+#### Running
 After installing the dependencies, go to the project root directory and run the following command  
 ```
 npm start
@@ -26,7 +26,7 @@ If everything has worked fine, there should be a message on the terminal `App is
 The API will be hosted on http://localhost:3000  
 There are 4 available `GET` routes. Other responses 404 with "Not Found" as a message
 
-## Routes
+#### Routes
 ###### Home page
 `GET - /`  
 Basic home page used mostly for dev purposes
