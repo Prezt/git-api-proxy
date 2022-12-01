@@ -15,7 +15,7 @@ To run the tests, go to the project root directory and run
 npm test
 ```
 The results will be shown in the terminal you ran the command
-This tests are ran using `jest` and `supertest`
+This tests are ran using `jest` and `supertest`  
 
 ### Running
 After installing the dependencies, go to the project root directory and run the following command  
@@ -24,7 +24,7 @@ npm start
 ```
 If everything has worked fine, there should be a message on the terminal `App is listening at port 3000`  
 The API will be hosted on http://localhost:3000  
-There are 4 available `GET` routes. Other responses 404 with "Not Found" as a message
+There are 4 available `GET` routes. Other responses 404 with "Not Found" as a message  
 
 ### Routes
 ###### Home page
